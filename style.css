@@ -38,7 +38,7 @@ body {
     
 }
 #header img{
-    height: 100px;
+    width: 180px;
     position: absolute;
     left: 20;
 }
@@ -57,7 +57,7 @@ position: inherit;
 }
 h2{
     font-size: 80px;
-    margin-left: 0px;
+    margin-left: 20px;
     margin-right: 20px;
     margin-top: 0px;
 }
@@ -151,12 +151,12 @@ h5{
     box-shadow: 5px 5px 30px lightgray;
     margin: 15px 0;
     transition: 0.2s ease;
-    position: relative;
     margin-right:10px;
    
 }
 #product1 .pro img{
-    height: 400px;
+    position: relative;
+    height:50%;
    
     border-radius: 20px;
 }
@@ -368,4 +368,123 @@ color: yellow;
 }
 footer h3{
     font-size: 14px;
+}
+@media (max-width:799px) {
+    h2 {
+      
+        font-size: 30px;
+        margin-left: 3px ;
+     
+    }
+    #h1 {
+        font-size: 20px;
+       
+    }
+    #p {
+        font-size: 10px;
+    }
+    .section-p1{
+        padding: 40px 40px;
+    }
+    #hero{
+        height:150px;
+        padding:0 10px;
+        background-position: top 30% ;
+    }
+    #feature{
+        justify-content: center;
+    }
+    #feature .fe-box{
+        margin: 15px 15px;
+        width: 5%;
+    }
+    #product1 .pro-container{
+       justify-content: center; 
+    }
+    #product1 .pro{
+            width:70%;
+            height: 300px;
+
+    }
+    #newsletter .form{
+        width: 70%;
+    }
+    #product1 .pro img{
+     
+        height:50%;
+       
+       
+    }
+    
+    
+
+
+}
+@media (max-width:477px) {
+    #header{
+        height: 70px;
+    }
+    #menu {
+        position: fixed;
+        top:20;
+        right: 30;
+    }
+    #menu li {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #header img {
+        width: 100px;
+        position: absolute;
+        left: 2;
+    }
+    h2 {
+      
+        font-size: 30px;
+        margin-left: 3px ;
+     
+    }
+    #h1 {
+        font-size: 20px;
+       
+    }
+    #p {
+        font-size: 10px;
+    }
+    .section-p1{
+        padding: 40px 40px;
+    }
+    #hero{
+        height:150px;
+        padding:0 10px;
+        background-position: top 30%;
+    }
+    #feature{
+        justify-content: center;
+    }
+    #feature .fe-box{
+        margin: 15px 30px;
+        width: 5%;
+    }
+    #product1 .pro-container{
+       justify-content: center; 
+    }
+    #product1 .pro{
+            width:99%;
+            height: 300px;
+
+    }
+    #newsletter .form{
+        width: 70%;
+    }
+    #product1 .pro img{
+     
+        height:50%;
+       
+       
+    }
+    
+    
+
+
 }
