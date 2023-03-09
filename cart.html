@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <title> Ekht </title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <script src="https://kit.fontawesome.com/ad76299901.js" crossorigin="anonymous"></script>
+   
+
+    </head>
+    <body>
+        <div id="header" width="100%">
+            <a href='index.html'" class="back"></a>
+            <img src="logo2.jpg" id="logo">
+            <ul id="menu">
+                <li class="links"><a href="index.html" color="white">Home</a></li>
+                <li class="links"><a href="shop.html">Shop</a></li>
+                <li class="links"><a href="about.html">About</a></li>
+                <li class="links"><a href="contact.html">Contact</a></li>
+                <li class="links"><button onclick="opencart();"><i id="class-icon" class="fa-solid fa-bag-shopping shop-cart-button" ></i></li>
+            </ul>
+        </div>
+<div class="cart" id="cart">
+    <h2 class="cart-title">Your Cart</h2>
+    <div class="cart-content">
+        
+        <div class="cart-items"></div>
+    </div>
+    <div id="total" class="total">
+        <div class="total-title">Total </div>
+        <div class="cart-total-price" > Rs. 0 </div>
+    </div>
+    <button id="buynow" type="button" class="btn-purchase">Buy Now</button>
+    <button onclick="closecart()" ><i class="fa-solid fa-x close-cart"></i></button>
+</div>
+<section id="feature" class="section-p1">
+    <div class="fe-box">
+        <img src="icons8-shipping-service-64.png">
+        <h6 id="fs">Free Shipping</h6>
+    </div>
+    <div class="fe-box">
+        <img src="icons8-purchase-order-100.png">
+        <h6 id="oa">Order Online</h6>
+    </div>
+    <div class="fe-box">
+        <img src="icons8-cash-on-delivery-64.png">
+        <h6 id="cod" >Cash on Delivery</h6>
+    </div>
+    <div class="fe-box">
+        <img src="icons8-cotton-64.png">
+        <h6 id="co">100% Cotton</h6>
+    </div>
+    <div class="fe-box">
+        <img src="icons8-authentic-64.png">
+        <h6 id="ad">Authentic Designs</h6>
+    </div>
+</section>
+
+
+<script src="main.js"></script>
+</body>
+</html>
