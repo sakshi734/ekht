@@ -46,7 +46,7 @@ body {
     color: gray;
 }
 #hero{
-    background-image: url("hero.jpg");
+    background-image: url("hero2.jpg");
     background-size: 100%;
 height: 150vh;
 background-repeat: no-repeat;
@@ -138,7 +138,7 @@ h5{
     justify-content: space-between;
     padding-top: 20px;
     flex-wrap: wrap;
-
+    
    
 }
 #product1 .pro{
@@ -152,12 +152,12 @@ h5{
     margin: 15px 0;
     transition: 0.2s ease;
     margin-right:10px;
-   
+  
 }
 #product1 .pro img{
-    position: relative;
-    height:50%;
-   
+    position:relative;
+
+  height:300px;
     border-radius: 20px;
 }
 
@@ -216,7 +216,7 @@ h5{
     font-size: 40px;
 }
 #prodetail .single-pro-details h4{
-    padding: 10px 0 10px 0;
+    padding: 0px 0 0px 0;
 }
 #prodetail .single-pro-details h2{
     font-size: 26px;
@@ -369,6 +369,66 @@ color: yellow;
 footer h3{
     font-size: 14px;
 }
+@media (max-width:1076px) {
+    h2 {
+      
+        font-size: 60px;
+        margin-left: 10px ;
+     
+    }
+    #h1 {
+        font-size: 40px;
+       
+    }
+    #p {
+        font-size: 20px;
+    }
+    .section-p1{
+        padding: 40px 40px;
+    }
+    #hero{
+        height:800px;
+        padding:0 10px;
+        background-position: top 30% ;
+    }
+    #feature{
+        justify-content: center;
+    }
+    #feature .fe-box{
+        margin: 15px 15px;
+        width: 5%;
+    }
+    .fe-box{
+  
+        padding: 15px 15px;  
+    }
+    #product1 .pro-container{
+       justify-content: center; 
+    }
+    #product1 .pro{
+            width:90%;
+            height: 500px;
+
+    }
+    #newsletter .form{
+        width: 90%;
+    }
+    #product1 .pro img{
+     
+        height:70%;
+       
+       
+    }
+    
+#prodetail .single-pro-image {
+    width: 50%;
+    margin-right: 50px;
+}
+   
+    
+    
+
+}
 @media (max-width:799px) {
     h2 {
       
@@ -387,7 +447,7 @@ footer h3{
         padding: 40px 40px;
     }
     #hero{
-        height:150px;
+        height:500px;
         padding:0 10px;
         background-position: top 30% ;
     }
@@ -398,25 +458,36 @@ footer h3{
         margin: 15px 15px;
         width: 5%;
     }
+    .fe-box{
+  
+        padding: 15px 15px;  
+    }
     #product1 .pro-container{
        justify-content: center; 
     }
     #product1 .pro{
             width:70%;
-            height: 300px;
+            height: 500px;
 
     }
     #newsletter .form{
-        width: 70%;
+        width: 90%;
     }
     #product1 .pro img{
      
-        height:50%;
+        height:70%;
        
        
     }
+    #prodetail .single-pro-image {
+        width: 90%;
+        margin-right: 20px;
+    }
     
-    
+    #prodetail{
+        display:list-item;
+        margin-top: 20px;
+    }
 
 
 }
@@ -440,22 +511,22 @@ footer h3{
     }
     h2 {
       
-        font-size: 30px;
+        font-size: 20px;
         margin-left: 3px ;
      
     }
     #h1 {
-        font-size: 20px;
+        font-size: 10px;
        
     }
     #p {
-        font-size: 10px;
+        font-size: 7px;
     }
     .section-p1{
-        padding: 40px 40px;
+        padding: 0px 10px;
     }
     #hero{
-        height:150px;
+        height:350px;
         padding:0 10px;
         background-position: top 30%;
     }
@@ -463,8 +534,12 @@ footer h3{
         justify-content: center;
     }
     #feature .fe-box{
-        margin: 15px 30px;
+        margin: 5px 20px;
         width: 5%;
+    }
+    .fe-box{
+  
+        padding: 0px 15px;  
     }
     #product1 .pro-container{
        justify-content: center; 
@@ -475,7 +550,7 @@ footer h3{
 
     }
     #newsletter .form{
-        width: 70%;
+        width: 90%;
     }
     #product1 .pro img{
      
@@ -484,7 +559,29 @@ footer h3{
        
     }
     
+    #prodetail .single-pro-image {
+        width: 90%;
+        margin-right: 10px;
+    }
+    #prodetail .single-pro-details {
+        width: 80%;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+    #prodetail .single-pro-details span {
+        line-height: 20px;
+        font-size: 15px;
+    }
+    #prodetail .single-pro-details h2 {
+        font-size: 16px;
+    }
+    h6 {
+        font-size: 10px;
+    }
+    #prodetail{
+        display:list-item;
+        margin-top: 20px;
+    }
     
-
-
+    
 }
