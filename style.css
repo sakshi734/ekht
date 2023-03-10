@@ -488,7 +488,9 @@ footer h3{
         display:list-item;
         margin-top: 20px;
     }
-
+    .fe-box img {
+        height: 60px;
+    }
 
 }
 @media (max-width:477px) {
@@ -539,7 +541,7 @@ footer h3{
     }
     .fe-box{
   
-        padding: 0px 15px;  
+        padding: 0px 5px;  
     }
     #product1 .pro-container{
        justify-content: center; 
@@ -582,6 +584,8 @@ footer h3{
         display:list-item;
         margin-top: 20px;
     }
-    
+    .fe-box img {
+        height: 40px;
+    }
     
 }
