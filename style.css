@@ -536,12 +536,12 @@ footer h3{
         justify-content: center;
     }
     #feature .fe-box{
-        margin: 5px 20px;
+        margin: 5px 10px;
         width: 5%;
     }
     .fe-box{
   
-        padding: 0px 5px;  
+        padding: 0px 3px;  
     }
     #product1 .pro-container{
        justify-content: center; 
